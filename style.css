@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#counter {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 200px;
+}
+
+.count {
+    font-size: 24px;
+}
+
+.error {
+    color: red;
+    display: none;
+}
+
+.btn {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
